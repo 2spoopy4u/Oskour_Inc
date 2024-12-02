@@ -1,7 +1,13 @@
 @startuml
 Class Player{
-
+    velocite: double
 }
+
+class Position{
+x : int
+y : int
+}
+
 Interface GameMode{
 Action()
 gravite : int
@@ -18,7 +24,15 @@ name : String
 numberDeath : Int
 music : AudioFile
 layout : LayoutFile
+score: Int
 }
+
+Enum Difficulty{
+    easy
+    medium
+    hard
+}
+
 
 Interface Terrain{
 size : Int
@@ -42,6 +56,10 @@ Class Orb extends Terrain
 Class Pad extends Terrain
 
 Player "0.1" -- "0.1" GameMode
+Player "0.1" -- "0.1" Position
+Terrain "0.1" -- "0.1" Position
 Terrain "1" -- "1" Hitboxes
 Level "0.1" -- "0.n" Terrain
+Level "0.1" -- "0.1" Player
+Level "0.n" -- "1" Difficulty
 @enduml
