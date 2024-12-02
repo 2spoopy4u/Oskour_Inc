@@ -1,0 +1,22 @@
+@startuml
+
+state c <<choice>>
+[*] --> c : Avancer
+c--> Mourir: Prendre un obstacle
+Mourir --> c
+
+c --> Vivant : Esquive un obstacle / Avancer
+c --> Modifie : Changement de mode de jeu
+c --> Pause : Utilisateur mets en pause
+
+state b <<choice>>
+Pause --> b
+
+state join_state <<join>>
+b --> join_state : Reprendre
+b --> [*] : Quitter
+Vivant--> join_state
+Modifie --> join_state
+join_state --> c
+
+@enduml
