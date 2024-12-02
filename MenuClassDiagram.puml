@@ -3,18 +3,18 @@
 interface Menu{
 }
 
-class MainMenu{
+class MainMenu extends Menu{
     +AudioParameters : AudioParameters
     +quitGame() : void
     +goToLevelMenu() : void
 }
 
-class LevelMenu {
+class LevelMenu extends Menu {
     +getLevels() : levels
     +selectLevel(level : Level) : void
 }
 
-class PauseMenu {
+class PauseMenu extends Menu {
     +AudioParameters : AudioParameters
     +reset() : void
     +quit() : void
@@ -22,7 +22,7 @@ class PauseMenu {
     +quitLevel() : void
 }
 
-class VictoryMenu {
+class VictoryMenu extends Menu {
     +reset() : void
     +quit() : void
     +nextLevel() :void
@@ -36,11 +36,6 @@ class AudioParameters {
 class Level {
     ' ref to Level Class
 }
-
-MainMenu --|> Menu
-LevelMenu --|> Menu
-PauseMenu --|> Menu
-VictoryMenu --|> Menu
 
 PauseMenu --> "1" AudioParameters : "1"
 MainMenu --> "1" AudioParameters : "1"
