@@ -1,0 +1,58 @@
+@startuml
+'!include ../../plantuml-styles/plantuml-ae.iuml
+
+skinparam Shadowing false
+
+skinparam ArrowFontStyle normal
+skinparam ArrowFontName Courier
+skinparam ArrowFontSize 10
+
+:User: as U #tan
+
+:User: as U #tan
+:User: as U #tan
+:User: as U #tan
+package Menu_principal{
+(Sélectionner un menu)
+}
+package Menu_niveaux{
+(Sélectionner un niveau)
+}
+package Menu_Gagner{
+(Recommencer) as recoGagner
+(Retour au menu) as menuGagner
+}
+package Menu_pause{
+(Reprendre le jeu)
+(Retour au menu)
+(Recommencer)
+(Baisser la musique)
+(Baisser les sfx)
+}
+package Jeu{
+(Cliquer)
+(Sauter)
+(Inverser)
+(Planer)
+(Mettre en pause)
+(Perdre)
+(Gagner)
+}
+U -> (Sélectionner un menu)
+U -> (Sélectionner un niveau)
+U ---> (Cliquer)
+U -> (Mettre en pause)
+U ----> (Reprendre le jeu)
+U -> (Retour au menu)
+U -> (Recommencer)
+U -> (Baisser la musique)
+U -> (Baisser les sfx)
+U -> (Perdre)
+U -> (Gagner)
+U -> recoGagner
+U -> menuGagner
+(Cliquer)->(Sauter)
+(Cliquer)-->(Inverser)
+(Cliquer)--->(Planer)
+'!include ../../plantuml-styles/ae-copyright-footer.txt
+@enduml
