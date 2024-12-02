@@ -1,0 +1,52 @@
+@startuml
+
+interface Menu{
+}
+
+class MainMenu{
+    +AudioParameters : AudioParameters
+    +quitGame() : void
+    +goToLevelMenu() : void
+}
+
+class LevelMenu {
+    +getLevels() : levels
+    +selectLevel(level : Level) : void
+}
+
+class PauseMenu {
+    +AudioParameters : AudioParameters
+    +reset() : void
+    +quit() : void
+    +resume() : void
+    +quitLevel() : void
+}
+
+class VictoryMenu {
+    +reset() : void
+    +quit() : void
+    +nextLevel() :void
+}
+
+class AudioParameters {
+    +modifyGeneralVolume(input : Integer) : void
+    +modifySFXVolume(input : Integer) : void
+}
+
+class Level {
+    ' ref to Level Class
+}
+
+MainMenu --|> Menu
+LevelMenu --|> Menu
+PauseMenu --|> Menu
+VictoryMenu --|> Menu
+
+PauseMenu --> "1" AudioParameters : "1"
+MainMenu --> "1" AudioParameters : "1"
+
+LevelMenu --> "0..*" Level : "1"
+PauseMenu --> "1" Level : "1"
+VictoryMenu --> "1" Level : "1"
+
+@enduml
