@@ -1,0 +1,34 @@
+@startuml
+
+start;
+:avance;
+fork
+    if(obtient bonus) then (oui)
+    :Change mode de jeu;
+    else(non)
+    endif
+fork again
+    if(appele saut) then (oui)
+    if(saut possible) then (oui)
+    :Saut;
+    else(non)
+    endif
+    else(non)
+    endif
+fork again
+    if(appele inverse gravité) then (oui)
+    :Inverse gravité;
+    else(non)
+    endif
+fork again
+    if(appel flote) then (oui)
+    :flote;
+    else(non)
+    endif
+endFork
+if(rencontre obstacle) then (yes)
+:effet;
+else(non)
+endif
+stop;
+@enduml
