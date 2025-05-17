@@ -73,9 +73,6 @@ L’interface utilisateur comprend :
 
 Enfin, Oskour dispose d’un éditeur de niveaux intégré. Cet outil permet aux joueurs de concevoir leurs propres parcours en plaçant librement les obstacles, orbes, portails et autres éléments du jeu. Une fois créés, ces niveaux peuvent être joués, permettant au joueur de profiter de ses propres créations.
 
-Générateur de niveaux ?
-Interface permettant de visualiser le score au cours du jeu, l’écoulement du temps de la partie, son meilleur score à battre ?
-
 Projet réalisé par :
 - Antoine GERMON :3
 - Jules BELHOSTE
