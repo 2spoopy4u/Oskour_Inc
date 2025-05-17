@@ -3,8 +3,6 @@
 ## Analyse UML
 Sur ce git, vous pourrez trouver dans le dossier UML : 
 - un diagramme de classes
-- un diagramme de classes (pour l'éditeur de niveaux)
-- un diagramme de classes (pour les menus)
 - un diagramme d'états
 - un diagramme d'activité
 - une diagramme useCase
