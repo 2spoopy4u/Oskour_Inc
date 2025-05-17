@@ -1,5 +1,8 @@
 # OSKOUR.Inc
 
+## Utilisation  
+Extraire le dossier build, exécuter le fichier .exe se trouvant dedans.
+
 ## Analyse UML
 Sur ce git, vous pourrez trouver dans le dossier UML : 
 - un diagramme de classes
