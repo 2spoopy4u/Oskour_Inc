@@ -1,0 +1,282 @@
+{
+  "LevelName": "Level damn",
+  "PlayerStartPosition": {
+    "X": 0.0,
+    "Y": 1.0,
+    "Z": 0.0
+  },
+  "TerrainObjects": [
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10904,
+      "X": -5.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10912,
+      "X": -4.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10920,
+      "X": -3.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10928,
+      "X": -2.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10936,
+      "X": -1.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10944,
+      "X": 0.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10952,
+      "X": 1.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10960,
+      "X": 2.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10968,
+      "X": 3.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10976,
+      "X": 4.0,
+      "Y": -3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10984,
+      "X": -5.0,
+      "Y": -2.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -10992,
+      "X": 4.0,
+      "Y": -2.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11000,
+      "X": -5.0,
+      "Y": -1.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11008,
+      "X": 4.0,
+      "Y": -1.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11016,
+      "X": -5.0,
+      "Y": 0.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11024,
+      "X": 4.0,
+      "Y": 0.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11032,
+      "X": -5.0,
+      "Y": 1.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11040,
+      "X": 4.0,
+      "Y": 1.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11048,
+      "X": -5.0,
+      "Y": 2.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11056,
+      "X": 4.0,
+      "Y": 2.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11064,
+      "X": -5.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11072,
+      "X": -4.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11080,
+      "X": -3.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11088,
+      "X": -2.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11096,
+      "X": -1.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11104,
+      "X": 0.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11112,
+      "X": 1.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11120,
+      "X": 2.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11128,
+      "X": 3.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    },
+    {
+      "TerrainType": 0,
+      "GameObjectId": -11136,
+      "X": 4.0,
+      "Y": 3.0,
+      "Z": 0.0,
+      "Rotation": 0.0,
+      "Scale": 1.0
+    }
+  ]
+}
+
+

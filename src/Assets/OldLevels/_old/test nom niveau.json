@@ -1,0 +1,9 @@
+{
+  "LevelName": "test nom niveau",
+  "PlayerStart": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "Terrains": []
+}
