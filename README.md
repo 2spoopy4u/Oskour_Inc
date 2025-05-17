@@ -26,13 +26,32 @@ La planification du projet a été faite et suivie par deux moyeux : Trello & un
 
 ### Trello
 [Accéder au Trello](https://trello.com/invite/b/67289e68c4fd9072247a1af7/ATTI92782fcaa240a02f5798cfb59cedae4b1D187122/geometry-dash-du-pauvre)
+
+![TRELLO](./trello_oskour.png)
+
 Le tableau est d'abord divisé en plusieurs tâches selon les différents checkpoints du cahier des charges. Puis recatégoriser en Interface ou Fonctionnel.
 Dans un dernier temps, les tâches sont réparties dans les catégories A faire/En cours/Fait.
 
-### Gantt
+Nous avons instauré un code couleur pour plus facilement comprendre l'enjeu de chaque tâche : 
+- Vert foncé : Diagrammes
+- Vert clair : En lien avec la phase d'initialisation
+- Bleu : Ce qui doit être coder
+- Violet : Tout ce qui est fonctionnel
+- Orange : Les interfaces
 
+### Gantt
+![GANTT](./gantt_oskour.png)
 
 Le diagramme de Gantt est fichier .gantt, qui peut être ouvert sur ce [site](https://www.onlinegantt.com/#/gantt)
+
+On dénombre 5 phases dans le projet : 
+- La planification : la création des différents diagrammes
+- L'initialisation : la création du projet Unity et la mise en place de UVCS
+- Le développement : Phase la plus longue, avec la création d'un premier prototype, puis le développement des différents features. Elle se termine par l'assemblage de toutes ces features.
+- Tests & Documentation : Différents tests faits sur le jeu & résolutions de derniers bugs
+- Livraison
+
+Chaque phase a sa couleur, de manière à rendre le diagramme plus lisible.
 
 ## Présentation du jeu
 
