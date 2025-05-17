@@ -65,7 +65,7 @@ Le jeu prend en charge l’importation et l’exportation de niveaux personnalis
 
 Deux animations distinctes viennent enrichir l’expérience utilisateur :
 - Une animation de mort, jouée lorsque le joueur échoue.
-- Une animation de fin de niveau, lorsquee le joueur réussit le niveau.
+- Une animation de course, pour le personnage du joueur.
 
 L’interface utilisateur comprend :
 - Un menu principal, pour accéder aux différentes fonctionnalités du jeu.
