@@ -58,25 +58,18 @@ Chaque phase a sa couleur, de manière à rendre le diagramme plus lisible.
 Oskour est un jeu inspiré de Geometry Dash, avec plusieurs modifications uniques. Dans ce jeu, vous incarnez un personnage en fuite, qui court automatiquement et doit esquiver une série d’obstacles dynamiques tout au long du parcours. L’objectif est de survivre jusqu’à la fin du niveau, en s’adaptant aux nombreux pièges et en tirant parti des bonus répartis sur le parcours.
 
 Au fil du niveau, le joueur rencontre plusieurs types d’éléments interactifs :
-
 - Des orbes de saut, permettant de réaliser un bond supplémentaire.
-
 - Des portails d’inversion de gravité, qui retournent littéralement le gameplay en faisant courir le personnage au plafond.
-
 - Des portails de transformation, qui placent le joueur aux commandes d’un vaisseau volant, changeant ainsi la mécanique de déplacement.
 
 Le jeu prend en charge l’importation et l’exportation de niveaux personnalisés via des fichiers au format JSON. Ces fichiers contiennent toutes les informations nécessaires à la création d’un niveau : nom, position de départ du joueur, types et emplacements des obstacles et bonus.
 
 Deux animations distinctes viennent enrichir l’expérience utilisateur :
-
 - Une animation de mort, jouée lorsque le joueur échoue.
-
 - Une animation de fin de niveau, lorsquee le joueur réussit le niveau.
 
 L’interface utilisateur comprend :
-
 - Un menu principal, pour accéder aux différentes fonctionnalités du jeu.
-
 - Un menu de pause, depuis lequel il est possible de reprendre la partie ou de régler le volume du son.
 
 Enfin, Oskour dispose d’un éditeur de niveaux intégré. Cet outil permet aux joueurs de concevoir leurs propres parcours en plaçant librement les obstacles, orbes, portails et autres éléments du jeu. Une fois créés, ces niveaux peuvent être joués, permettant au joueur de profiter de ses propres créations.
@@ -85,8 +78,8 @@ Générateur de niveaux ?
 Interface permettant de visualiser le score au cours du jeu, l’écoulement du temps de la partie, son meilleur score à battre ?
 
 Projet réalisé par :
-Antoine GERMON :3
-Jules BELHOSTE
-Mina TOUAMA
+- Antoine GERMON :3
+- Jules BELHOSTE
+- Mina TOUAMA
 
 
