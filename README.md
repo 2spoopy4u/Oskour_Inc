@@ -1,13 +1,14 @@
 # OSKOUR : Le Geometry Dash du pauvre
 
 ## Analyse UML
-Sur ce git, vous pourrez trouver : 
+Sur ce git, vous pourrez trouver dans le dossier UML : 
 - un diagramme de classes
 - un diagramme de classes (pour l'éditeur de niveaux)
 - un diagramme de classes (pour les menus)
 - un diagramme d'états
 - un diagramme d'activité
 - une diagramme useCase
+Pour chaque diagramme, un png et le fichier puml utilisé pour le générer sont présent.
 
 ## Contrôle de version
 Sur ce projet, nous avons décidé d'utiliser Unity DevOps Version Control, qui est l'outil de gestion de version mis en place par Unity. Nous avons différentes branches : 
@@ -27,7 +28,7 @@ La planification du projet a été faite et suivie par deux moyeux : Trello & un
 ### Trello
 [Accéder au Trello](https://trello.com/invite/b/67289e68c4fd9072247a1af7/ATTI92782fcaa240a02f5798cfb59cedae4b1D187122/geometry-dash-du-pauvre)
 
-![TRELLO](./trello_oskour.png)
+![TRELLO](./ressource/trello_oskour.png)
 
 Le tableau est d'abord divisé en plusieurs tâches selon les différents checkpoints du cahier des charges. Puis recatégoriser en Interface ou Fonctionnel.
 Dans un dernier temps, les tâches sont réparties dans les catégories A faire/En cours/Fait.
@@ -40,7 +41,7 @@ Nous avons instauré un code couleur pour plus facilement comprendre l'enjeu de 
 - Orange : Les interfaces
 
 ### Gantt
-![GANTT](./gantt_oskour.png)
+![GANTT](./ressource/gantt_oskour.png)
 
 Le diagramme de Gantt est fichier .gantt, qui peut être ouvert sur ce [site](https://www.onlinegantt.com/#/gantt)
 

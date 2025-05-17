@@ -1,0 +1,121 @@
+@startuml
+' Classes de mouvement
+abstract class PlayerMovement {
+    +Rigidbody2D myRigidbody
+    +SetGrounded(bool)
+    +SwitchGravity()
+    +SetGravity(GravityDirection)
+    +GetGravityDirection() : float
+    +abstract CallMove()
+    +abstract Move()
+    +virtual CanMove() : bool
+}
+
+abstract class PlayerMovementHold extends PlayerMovement {
+    +CallMove()
+}
+
+abstract class PlayerMovementOnce extends PlayerMovement {
+    +CallMove()
+}
+
+class BallMovement extends PlayerMovementOnce
+class CubeMovement extends PlayerMovementHold {
+    +int jumpForce
+    +Move()
+    +CanMove() : bool
+}
+
+class ShipMovement extends PlayerMovementHold {
+    +float jumpForce
+    +Move()
+    +CanMove() : bool
+}
+
+class Player {
+    +PlayerMovement playerMovement
+    +float moveSpeed
+    +bool alive
+    +PlayerSettings settings
+    +Start()
+    +SwitchMovement(MovementType)
+    +Die()
+    +Update()
+}
+
+class CubeCollider {
+    +OnCollisionEnter2D(Collision2D)
+}
+
+class CameraFollow {
+    +Transform player
+    +float smoothSpeed
+    +Vector3 offset
+}
+
+class EnumToGameObject {
+    +static Dictionary<EnumTerrain, GameObject> terrainPrefabs
+}
+
+class GameLevelSerializer {
+    +List<GameObject> terrains
+    +string levelPath
+    +SerializeLevel()
+    +static List<GameObject> GetAllGameObjectsInScene()
+}
+
+class LevelDeserializer {
+    +string levelPath
+    +DeserializeLevel()
+}
+
+class TerrainTemplate {
+    +EnumTerrain TerrainType
+    +int GameObjectId
+    +double X, Y, Z, Rotation, Scale
+}
+
+class LevelDataCompressed {
+    +string LevelName
+    +List<double> PlayerStart
+    +PlayerSettings PlayerSettings
+    +List<object[]> Terrains
+}
+
+class PlayerSettings {
+    +int Gamemode
+    +int Gravity
+}
+
+enum GravityDirection {
+    Up
+    Down
+}
+
+enum MovementType {
+    Ball
+    Ship
+    Cube
+}
+
+enum EnumTerrain {
+    Block
+    Spike
+    JumpOrb
+    GravityOrb
+    ShipPortal
+    CubePortal
+    BallPortal
+}
+
+' Relations
+Player --> PlayerMovement
+Player --> PlayerSettings
+CubeCollider --> Player
+CameraFollow --> Transform
+LevelDeserializer --> LevelDataCompressed
+GameLevelSerializer --> TerrainTemplate
+EnumToGameObject --> GameObject
+TerrainTemplate --> EnumTerrain
+
+@enduml

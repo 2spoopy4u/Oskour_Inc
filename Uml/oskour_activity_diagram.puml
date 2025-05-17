@@ -1,0 +1,36 @@
+@startuml
+|Joueur|
+start
+:Charger niveau depuis JSON;
+:Instancier joueur et caméra;
+:Début du niveau;
+
+repeat
+  :Mouvement automatique;
+  if (Input : saut ?) then (Oui)
+    :Move();
+  endif
+
+  if (Collision avec bloc ?) then (Oui)
+    if (Collision haut ?) then (Oui)
+      :SetGrounded(true);
+    else (Non)
+      :Ignorer la collision;
+    endif
+  endif
+
+  if (Collision avec spike ?) then (Oui)
+    :Die();
+  endif
+
+  if (Trigger portail ?) then (Oui)
+    :SwitchMovement();
+  endif
+
+  if (Trigger orb et clic ?) then (Oui)
+    :Orb jump;
+  endif
+repeat while (Niveau non terminé ou joueur vivant?)
+
+stop
+@enduml
