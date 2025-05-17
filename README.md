@@ -1,4 +1,4 @@
-# OSKOUR : Le Geometry Dash du pauvre
+# OSKOUR.Inc
 
 ## Analyse UML
 Sur ce git, vous pourrez trouver dans le dossier UML : 
